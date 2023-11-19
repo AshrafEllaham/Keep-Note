@@ -1,0 +1,15 @@
+{
+    "name": "ashraf/keep_note",
+    "autoload": {
+        "psr-4": {
+            "KeepNote\\": "src/",
+            "App\\": "App/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.4"
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
